@@ -41,7 +41,7 @@ export function Hero() {
             </h1>
             
             <p className="mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg text-muted-foreground leading-relaxed max-w-xl mx-auto lg:mx-0 text-pretty">
-              O Grupo Santo Amaro oferece atendimento humanizado com tecnologia de ponta. 
+              A Clínica Amare oferece atendimento humanizado com tecnologia de ponta. 
               Realizamos exames laboratoriais, radiologia e consultas com especialistas qualificados.
             </p>
 
