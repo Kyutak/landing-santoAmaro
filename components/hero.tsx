@@ -4,8 +4,8 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Phone, FileText, ArrowRight } from "lucide-react"
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420291&text&type=phone_number&app_absent=0"
-const RESULTS_LINK = "https://portal.worklabweb.com.br/resultados-on-line/3047"
+const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420292&text&type=phone_number&app_absent=0"
+const RESULTS_LINK = "https://app.test/resultados-on-line"
 
 export function Hero() {
   return (

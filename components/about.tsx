@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Phone, Users, Award, Heart, Clock } from "lucide-react"
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420291&text&type=phone_number&app_absent=0"
+const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420292&text&type=phone_number&app_absent=0"
 
 const values = [
   {
@@ -39,7 +39,7 @@ export function About() {
             <div className="relative w-full aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop&q=80"
-                alt="Clínica Grupo Santo Amaro"
+                alt="Clínica Amarena - Sobre Nós"
                 fill
                 className="object-cover"
               />
@@ -56,7 +56,7 @@ export function About() {
               Cuidando da saúde de Itabaiana e região
             </h2>
             <p className="mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg text-muted-foreground leading-relaxed text-pretty">
-              O Grupo Santo Amaro nasceu com a missão de levar saúde de qualidade para Itabaiana e toda a região. 
+              A Clínica Amarena nasceu com a missão de levar saúde de qualidade para Itabaiana e toda a região. 
               Com uma equipe de profissionais dedicados e equipamentos de última geração, oferecemos um atendimento 
               completo que vai desde exames laboratoriais até consultas especializadas.
             </p>

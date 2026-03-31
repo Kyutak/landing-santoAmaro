@@ -15,7 +15,7 @@ const navLinks = [
   { href: "#localizacao", label: "Localização" },
 ]
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420291&text&type=phone_number&app_absent=0"
+const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420292&text&type=phone_number&app_absent=0"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -28,15 +28,15 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2 sm:gap-3">
             <Image
               src="/logo.png"
-              alt="Grupo Santo Amaro"
+              alt="Clínica Amarena"
               width={32}
               height={32}
               className="rounded-md"
               style={{ width: 32, height: 32 }}
             />
             <div className="hidden xs:block sm:block">
-              <span className="text-sm sm:text-base font-bold text-foreground leading-tight">Grupo Santo Amaro</span>
-              <p className="text-[10px] sm:text-xs text-muted-foreground">Raio-X e Análises Clínicas</p>
+              <span className="text-sm sm:text-base font-bold text-foreground leading-tight">Clínica Amarena</span>
+              <p className="text-[10px] sm:text-xs text-muted-foreground">Análises Clínicas</p>
             </div>
           </Link>
 

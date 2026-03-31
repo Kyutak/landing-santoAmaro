@@ -4,10 +4,10 @@ import Image from "next/image"
 import Link from "next/link"
 import { Instagram, Facebook, Phone, MapPin } from "lucide-react"
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420291&text&type=phone_number&app_absent=0"
-const INSTAGRAM_LINK = "https://www.instagram.com/gruposantoamaro/"
-const FACEBOOK_LINK = "https://www.facebook.com/profile.php?id=61562738833415"
-const RESULTS_LINK = "https://portal.worklabweb.com.br/resultados-on-line/3047"
+const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420292&text&type=phone_number&app_absent=0"
+const INSTAGRAM_LINK = "https://www.instagram.com/clinicaamarena/"
+const FACEBOOK_LINK = "https://www.facebook.com/profile.php?id=615627388334209"
+const RESULTS_LINK = "https://app.test/resultados-on-line/"
 
 const quickLinks = [
   { href: "#inicio", label: "Início" },
@@ -44,8 +44,8 @@ export function Footer() {
                 style={{ width: 32, height: 32 }}
               />
               <div>
-                <span className="text-sm sm:text-base font-bold">Grupo Santo Amaro</span>
-                <p className="text-[10px] sm:text-xs opacity-70">Raio-X e Análises Clínicas</p>
+                <span className="text-sm sm:text-base font-bold">Clínica Amarena</span>
+                <p className="text-[10px] sm:text-xs opacity-70">Análises Clínicas</p>
               </div>
             </Link>
             <p className="mt-3 sm:mt-4 text-xs sm:text-sm opacity-80 leading-relaxed">
@@ -138,7 +138,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-background/10 text-center">
           <p className="text-xs sm:text-sm opacity-60">
-            {new Date().getFullYear()} Grupo Santo Amaro. Todos os direitos reservados.
+            {new Date().getFullYear()} Clínica Amarena 2026. Todos os direitos reservados.
           </p>
         </div>
       </div>

@@ -3,23 +3,23 @@
 import { Button } from "@/components/ui/button"
 import { MapPin, Phone, Clock, Instagram, Facebook } from "lucide-react"
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420291&text&type=phone_number&app_absent=0"
-const INSTAGRAM_LINK = "https://www.instagram.com/gruposantoamaro/"
-const FACEBOOK_LINK = "https://www.facebook.com/profile.php?id=61562738833415"
-const MAPS_LINK = "https://www.google.com/maps/place/Grupo+Santo+Amaro+-+Raio+X+e+An%C3%A1lises+Cl%C3%ADnicas/@-7.330706,-35.3341423,17z"
+const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420292&text&type=phone_number&app_absent=0"
+const INSTAGRAM_LINK = "https://www.instagram.com/clinicaamarena/"
+const FACEBOOK_LINK = "https://www.facebook.com/profile.php?id=615627388334209"
+const MAPS_LINK = "https://www.google.com/maps/place/R.+Industrial+Danilo+da+Penha+Paiva,+402-462+-+Cristo+Redentor,+Jo%C3%A3o+Pessoa+-+PB,+58071-550/@-7.1625122,-34.8721553,17z/data=!3m1!4b1!4m6!3m5!1s0x7ace9d3bf1ecf51:0xb8b1b54d2d506530!8m2!3d-7.1625175!4d-34.8695804!16s%2Fg%2F11g631drx3?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D"
 
 const contactInfo = [
   {
     icon: MapPin,
     title: "Endereço",
-    content: "R. Floriano Peixoto - Botafogo, Itabaiana - PB, 58360-000",
+    content: "R. Industrial Danilo da Penha Paiva, 402-462 - Cristo Redentor",
     link: MAPS_LINK,
     linkText: "Ver no Mapa",
   },
   {
     icon: Phone,
     title: "Telefone",
-    content: "(83) 99942-0291",
+    content: "(83) 99942-0292",
     link: WHATSAPP_LINK,
     linkText: "Chamar no WhatsApp",
   },
@@ -58,7 +58,7 @@ export function Location() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Grupo Santo Amaro"
+              title="Localização Clínica Amarena"
             />
           </div>
 
