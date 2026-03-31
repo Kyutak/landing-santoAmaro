@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { 
   Heart, 
-  Stethoscope, 
+  Stethoscope,
   Sparkles, 
   Activity, 
   Baby, 
@@ -13,14 +13,15 @@ import {
   Scan, 
   MonitorCheck,
   Phone,
+  File,
   ArrowRight
 } from "lucide-react"
 
 const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=%2B5583999420291&text&type=phone_number&app_absent=0"
 
 const specialties = [
-  { icon: Heart, name: "Angiologia", description: "Tratamento de doenças vasculares" },
-  { icon: Stethoscope, name: "Clínico Geral", description: "Atendimento geral de saúde" },
+  { icon: Heart, name: "Angiologia", description: "Tratamentos vasculares" },
+  { icon: Stethoscope, name: "Clínico Geral", description: "Atendimento geral" },
   { icon: Sparkles, name: "Dermatologia", description: "Cuidados com a pele" },
   { icon: Activity, name: "Fisioterapia", description: "Reabilitação e movimento" },
   { icon: Baby, name: "Ginecologia e Obstetrícia", description: "Saúde da mulher" },
@@ -30,6 +31,7 @@ const specialties = [
   { icon: Scan, name: "Radiologia", description: "Exames de imagem" },
   { icon: MonitorCheck, name: "Ultrassonografia", description: "Diagnóstico por imagem" },
   { icon: Activity, name: "Urologia", description: "Sistema urinário" },
+  { icon: File, name: "Psquiatria", description: "Atendimento psicológico" },
 ]
 
 export function Specialties() {
