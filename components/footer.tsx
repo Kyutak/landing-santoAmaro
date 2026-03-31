@@ -74,7 +74,7 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="hidden sm:block">
             <h3 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4">Links Rápidos</h3>
             <ul className="space-y-2 sm:space-y-3">
               {quickLinks.map((link) => (
@@ -91,7 +91,7 @@ export function Footer() {
           </div>
 
           {/* Services */}
-          <div>
+          <div className="hidden sm:block">
             <h3 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4">Serviços</h3>
             <ul className="space-y-2 sm:space-y-3">
               {services.map((service) => (
